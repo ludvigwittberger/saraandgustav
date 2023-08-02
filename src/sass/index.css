@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: 'Lora', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: 'Cormorant-Garamond';
+  src: local('Handlee-Regular'), url(../fonts/CormorantGaramond-Medium.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Quicksand-VariableFont_wght';
+  src: local('Quicksand-VariableFont_wght'), url(../fonts/Quicksand-VariableFont_wght.ttf) format('truetype');
+}
+
+h1 {
+  font-family: "Cormorant-Garamond", "sans-serif";
+}
+h2 {
+  font-family: "Cormorant-Garamond", "sans-serif";
+}
+h3 {
+  font-family: "Cormorant-Garamond", "sans-serif";
+}
+
+a {
+  font-family: "Cormorant-Garamond", "sans-serif";
+}
+
+p {
+  font-family: 'Quicksand-VariableFont_wght';
+  font-size: 1.2em;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

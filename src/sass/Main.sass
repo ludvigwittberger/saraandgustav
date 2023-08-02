@@ -1,0 +1,60 @@
+body
+  width: 100vw
+
+.c-main
+  max-width: 90%
+  min-height: 500px
+  margin: 50px auto
+  box-shadow: 1px 1px 30px 1px #a0a0a0
+  background-color: #ffffff
+ 
+  &__heading1
+    font-weight: 300
+    color: #595955
+    font-size: 1.2em
+    padding-top: 10px
+    margin: 0
+    letter-spacing: 3px
+
+  &__heading
+    font-weight: 300
+    margin: 5px 0 5px 0
+    color: #595955
+    font-size: 2.2em
+    letter-spacing: 8px
+
+  &__date
+    font-weight: 300
+    line-height: 1.5
+    margin: 0
+    color: #595955
+    font-size: 1.8em
+    letter-spacing: 4px
+
+  &__bild 
+    box-shadow: 1px 1px 10px 1px #a0a0a0
+    margin-top: 1em
+    margin-bottom: 1em
+    border: 2px solid white
+    height: auto
+    width: 100%
+
+  &__header-background
+    background-image: url(../images/blommor.jpg)
+
+
+@include sm
+  .c-main
+    &__bild
+      height: 24em
+      width: auto
+      border: 1em solid white
+
+    &__heading1 
+      font-weight: 300
+      line-height: 2
+      color: #595955
+      font-size: 1.8em
+      padding-top: 10px
+      margin: 0
+      letter-spacing: 5px

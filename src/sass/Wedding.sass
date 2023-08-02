@@ -1,0 +1,81 @@
+.c-wedding
+  width: 90%
+  margin: auto
+  padding: 1em 1em
+
+  &__wrapper
+    padding: 1em 0
+    border-bottom: 1px solid #e4e4e4
+    &:last-child
+      border: none
+
+  &__img
+    height: 2.5em
+    margin: 0 .5em
+    &-flip
+      transform: scaleX(-1)
+
+  &__img-with-heading
+    display: flex
+    flex-direction: row
+    align-items: center
+    margin: auto
+    justify-content: center
+
+
+  &__bild
+    box-shadow: 1px 1px 10px 1px #a0a0a0
+    margin-top: 1em
+    margin-bottom: 1em
+    border: 2px solid white
+    display: inline-block
+    height: 10em
+
+  &__h1
+    font-weight: 300
+    line-height: 2
+    color: #595955
+    font-size: 1.6em
+    padding-top: 10px
+    margin: 0
+    letter-spacing: 5px
+    text-transform: uppercase
+
+  &__h3
+    font-weight: 300
+    line-height: 2
+    color: #595955
+    font-size: 20px
+    padding-top: 10px
+    margin: 0
+    letter-spacing: 5px
+    text-transform: uppercase
+
+  &__link
+    font-family: 'Quicksand-VariableFont_wght'
+
+
+@include sm
+  .c-wedding
+    &__bild
+      box-shadow: 1px 1px 10px 1px #a0a0a0
+      height: 24em
+      margin-top: 1em
+      margin-bottom: 1em
+      border: 1em solid white
+      display: inline-block
+
+    &__h1
+      font-weight: 300
+      line-height: 2
+      color: #595955
+      font-size: 1.8em
+      padding-top: 10px
+      margin: 0
+      letter-spacing: 5px
+      text-transform: uppercase
+
+    &__link
+      font-family: 'Quicksand-VariableFont_wght'
+
+

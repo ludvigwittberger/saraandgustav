@@ -1,0 +1,41 @@
+.c-navbar
+  list-style: none
+  display: flex
+  flex-direction: column
+  justify-content: space-evenly
+  width: 90%
+  padding: 0
+  box-shadow: 0px 10px 13px -15px #666
+  margin: auto
+  padding-bottom: 1em
+    
+  &--linkWrapper 
+    cursor: pointer
+
+  &__link
+    font-size: 1.2em
+    font-weight: 300
+    line-height: 1.5
+    text-transform: uppercase
+    letter-spacing: 2px
+    text-decoration: none
+    color: #595955
+
+  &--currentLink
+    font-size: 1.2em
+    font-weight: 300
+    line-height: 1.5
+    text-transform: uppercase
+    letter-spacing: 2px
+    text-decoration: underline
+    color: #595955
+
+@include sm
+  .c-navbar
+    flex-direction: row
+    padding-bottom: 0
+
+    &--linkWrapper 
+      margin: 1em
+      padding-inline-start: 0px
+
