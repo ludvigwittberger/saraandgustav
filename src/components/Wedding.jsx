@@ -5,6 +5,7 @@ import newYork from '../images/newYork.jpg';
 
 const Wedding = () => (
   <div className="c-wedding">
+    <h1>HÄR BEHÖVER JAG TEXT FÖR VAD NI VILL BESKRIVA OM BRÖLLOPET</h1>
     <img src={newYork} alt="new york" className="c-wedding__bild" />
     <div className="c-wedding__wrapper">
       <h1 className="c-wedding__h1">Bröllopsdagen</h1>
