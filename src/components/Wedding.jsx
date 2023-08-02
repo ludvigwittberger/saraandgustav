@@ -1,12 +1,8 @@
 import React from 'react';
-import plant2 from '../images/plant2.png';
-import newYork from '../images/newYork.jpg';
-
 
 const Wedding = () => (
   <div className="c-wedding">
     <h1>HÄR BEHÖVER JAG TEXT FÖR VAD NI VILL BESKRIVA OM BRÖLLOPET</h1>
-    <img src={newYork} alt="new york" className="c-wedding__bild" />
     <div className="c-wedding__wrapper">
       <h1 className="c-wedding__h1">Bröllopsdagen</h1>
       <p>Här kommer allt du behöver veta om bröllopsdagen.</p>
@@ -47,7 +43,7 @@ const Wedding = () => (
     </div>
     <div className="c-wedding__wrapper">
       <h1 className="c-wedding__h1">Klädsel</h1>
-      <div className="c-wedding__img-with-heading"><img src={plant2} alt="plant" className="c-wedding__img" /><h3 className="c-wedding__h3">Kostym</h3><img src={plant2} alt="plant" className="c-wedding__img-flip c-wedding__img" /></div>
+      <div className="c-wedding__img-with-heading"><h3 className="c-wedding__h3">Kostym</h3><img src={plant2} alt="plant" className="c-wedding__img-flip c-wedding__img" /></div>
       <p>Eftersom kostym inte finns som formell dresscode, vill vi förtydliga: </p>
       <p><strong>Hon: </strong>Klänning eller kjol som går från knäna och nedåt. Välj något ni trivs i. Undvik helsvarta och helvita klänningar.</p>
       <p><strong>Han: </strong>Kostym, ljus eller mörk. Snygg skjorta, slips eller fluga.</p>

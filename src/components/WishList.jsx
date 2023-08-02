@@ -1,5 +1,4 @@
 import React from 'react';
-import portugal from '../images/portugal.jpg';
 
 
 const WishList = () => (
