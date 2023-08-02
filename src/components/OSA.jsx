@@ -1,5 +1,4 @@
 import React from 'react';
-import vi2 from '../images/vi2.jpg';
 
 const OSA = () => (
   <div className="c-osa">
