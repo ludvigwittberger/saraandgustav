@@ -13,18 +13,18 @@ export const routes = [
     main: () => <Welcome />
   },
   {
-    path: "/brollopsfolje",
-    name: 'folje',
+    path: "/wedding-entourage",
+    name: 'wedding-entourage',
     main: () => <WeddingGroup />
   },
   {
-    path: "/osa",
-    name: 'osa',
+    path: "/rsvp",
+    name: 'RSVP',
     main: () => <OSA />
   },
   {
-    path: "/brollopet",
-    name: 'brollopet',
+    path: "/wedding",
+    name: 'wedding',
     main: () => <Wedding />
   },
   {

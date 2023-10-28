@@ -30,7 +30,7 @@ const App = () => {
               </li>
               <li className="c-navbar--linkWrapper">
                 <NavLink
-                  to="/brollopet"
+                  to="/wedding"
                   className="c-navbar__link"
                   activeClassName='c-navbar--currentLink'
                 >
@@ -39,7 +39,7 @@ const App = () => {
               </li>
               <li className="c-navbar--linkWrapper">
                 <NavLink
-                  to="/brollopsfolje"
+                  to="/wedding-entourage"
                   className="c-navbar__link"
                   activeClassName='c-navbar--currentLink'
                 >
@@ -57,7 +57,7 @@ const App = () => {
               </li>
               <li className="c-navbar--linkWrapper">
                 <NavLink
-                  to="/osa"
+                  to="/rsvp"
                   className="c-navbar__link"
                   activeClassName='c-navbar--currentLink'
                 >
